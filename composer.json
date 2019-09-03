@@ -1,0 +1,15 @@
+{
+    "name": "nruslan/emutator",
+    "description": "PHP class that obfuscate email address from spam-bots",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruslan Niyazimbetov",
+            "email": "ruslanwd@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
+}
