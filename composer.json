@@ -8,6 +8,12 @@
             "email": "ruslanwd@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"ruslan\\Emutator\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"ruslan\\Emutator\\Tests\\": "tests/"}
+    },
     "require": {},
     "require-dev": {
         "orchestra/testbench": "^3.8"
