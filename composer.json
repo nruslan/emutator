@@ -1,6 +1,7 @@
 {
     "name": "nruslan/emutator",
     "description": "PHP class that obfuscate email address from spam-bots",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -8,21 +9,12 @@
             "email": "ruslanwd@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"ruslan\\Emutator\\": "src/"}
     },
-    "autoload-dev": {
-        "psr-4": {"ruslan\\Emutator\\Tests\\": "tests/"}
-    },
-    "extra": {
-        "laravel": {
-            "aliases": {
-                "eMail": "ruslan\\Emutator\\MailTo"
-            }
-        }
-    },
     "require": {},
     "require-dev": {
-        "orchestra/testbench": "^3.8"
+        "phpunit/phpunit": "^9.5"
     }
 }
